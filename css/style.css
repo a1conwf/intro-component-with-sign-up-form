@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FF7979;
+  color: #fff;
+  background-image: url("../images/bg-intro-mobile.png");
+  background-position: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  letter-spacing: -0.29px;
+}
+
+.info__container {
+  padding: 8.8rem 2.4rem 6.4rem;
+  text-align: center;
+}
+
+.info__container h1 {
+  margin-bottom: 1.6rem;
+}
+
+.info__container p {
+  max-width: 327px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.form__container {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.form__container .try__free {
+  width: 100%;
+  margin-bottom: 2.4rem;
+  padding: 1.8rem 6.6rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  background-color: #5E54A4;
+  font-size: 1.5rem;
+  letter-spacing: 0.27px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__container .try__free span {
+  font-weight: 500;
+}
+
+.form__container form {
+  padding: 2.4rem;
+  margin-bottom: 6.8rem;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+          box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+  border-radius: 1rem;
+}
+
+.form__container form .input__container {
+  position: relative;
+}
+
+.form__container form .input__container input {
+  width: 100%;
+  padding: 1.5rem 0 1.5rem 1.9rem;
+  margin-bottom: 2rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 0.5rem;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.form__container form .input__container input::-webkit-input-placeholder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+  opacity: 0.75;
+}
+
+.form__container form .input__container input:-ms-input-placeholder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+  opacity: 0.75;
+}
+
+.form__container form .input__container input::-ms-input-placeholder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+  opacity: 0.75;
+}
+
+.form__container form .input__container input::placeholder {
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  color: #3D3B48;
+  opacity: 0.75;
+}
+
+.form__container form .input__container input:focus, .form__container form .input__container input:active {
+  border: 1px solid #5E54A4;
+}
+
+.form__container form .input__container.error input {
+  margin-bottom: 0.6rem;
+}
+
+.form__container form .input__container.error input,
+.form__container form .input__container.error input::-webkit-input-placeholder {
+  color: #FF7979;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.form__container form .input__container.error input,
+.form__container form .input__container.error input:-ms-input-placeholder {
+  color: #FF7979;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.form__container form .input__container.error input,
+.form__container form .input__container.error input::-ms-input-placeholder {
+  color: #FF7979;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.form__container form .input__container.error input,
+.form__container form .input__container.error input::placeholder {
+  color: #FF7979;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.form__container form .input__container.error input,
+.form__container form .input__container.error input:focus,
+.form__container form .input__container.error input:active {
+  border: 3px solid #FF7979;
+}
+
+.form__container form .input__container.error .icon__error {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-transform: translate(-100%, 80%);
+          transform: translate(-100%, 80%);
+}
+
+.form__container form .input__container.error .text__error {
+  display: block;
+  margin-bottom: 1.9rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.65rem;
+  text-align: right;
+  color: #FF7979;
+}
+
+.form__container form .submit {
+  width: 100%;
+  padding: 1.5rem 0;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  background-color: #38CC8B;
+  -webkit-box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+          box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+
+.form__container form .submit:hover {
+  background-color: #77E2B3;
+}
+
+.form__container form .agree__terms {
+  max-width: 249px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+  text-align: center;
+  color: #BAB7D4;
+}
+
+.form__container form .agree__terms a {
+  text-decoration: none;
+}
+
+.form__container form .agree__terms span {
+  font-weight: 700;
+  color: #FF7979;
+}
+
+.form__container form .icon__error,
+.form__container form .text__error {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../images/bg-intro-desktop.png");
+  }
+  .info__container {
+    padding: 0 4.5rem 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+  }
+  .info__container h1 {
+    margin-bottom: 2.8rem;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.52px;
+  }
+  .info__container p {
+    max-width: 620px;
+    line-height: 2.8rem;
+  }
+  .form__container {
+    max-width: 540px;
+    margin: 0;
+    padding: 0;
+  }
+  .form__container .try__free {
+    padding: 1.7rem 0;
+  }
+  .form__container form {
+    padding: 4rem;
+    margin-bottom: 0;
+  }
+  .form__container form .input__container input {
+    padding: 1.5rem 0 1.5rem 3.2rem;
+    font-size: 1.4rem;
+  }
+  .form__container form .agree__terms {
+    max-width: 100%;
+    line-height: 2.6rem;
+  }
+}
